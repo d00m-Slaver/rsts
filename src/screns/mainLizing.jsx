@@ -12,24 +12,12 @@ import equiRef from "../imgs/equiRef.png";
 import prop from "../imgs/prop.png";
 import propRef from "../imgs/propRef.png";
 
+import PhofoComponent from "../components/phofoComponent";
+
 export function MainLizing(){
     return(
         <>
-        <div className="lizingTitle-workspace">
-            <div className="flex-column lizingTitle-workspace-main">
-                <div className="base-flex-row">
-                <div className="base-lizing-img"><img src={mainMan}/></div>
-                    <div className="base-flex-column">
-                        <div className="lizingTitle-title"> Лизинг от МТБанка</div>
-                            <div className="lizingTitle-littleTitle">Ставки от 0,0001%  на приобретение любого имущества. Отличная альтернатива кредиту.</div>
-                        <div className="flex-row">
-                            <div className="lizingTitle-button-blue">Оформить заявку</div>
-                            <div className="lizingTitle-button-white">Позвонить</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <PhofoComponent/>
         <div className="block-workzone">
                     <div className="textonce">Лизинг автотранспорта и спецтехники</div>
             

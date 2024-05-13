@@ -599,13 +599,90 @@ margin: 15px;
 }
 
 
-.base-lizing-img img{
- width: 450px;
-}
 
 .block-menu-img {
   padding: 15px;
 }
 .block-menu-img img{
   width: 200px;
+}
+
+.container{
+  position: relative;
+  width: 450px;
+  height: 450px;
+}
+.base-lizing-img img{
+  width: 450px;
+}
+
+
+.photoBlock{
+  width: 100%;
+  background-color: white;
+}
+.photoBlock-container{
+  position: relative;
+  width: 100%;
+  height: 500px;
+} 
+.photoBlock-backgroung-img,.photoBlock-person-img{
+  position: absolute;
+}
+.photoBlock-backgroung-img{
+  top:0px;
+  left: 0px;
+  width: 100%;
+  z-index: 0;
+}
+.photoBlock-person-img{
+  width: 450px;
+  z-index: 1;
+  top:42px;
+  left: 250px;
+}
+.photoBlock-flex{
+  position: absolute;
+  z-index: 2;
+  top:42px;
+  left: 650px;
+}
+
+.photoBlock-big-text{
+  font-family: calibri;
+  font-size:50px;
+  font-weight: bold;
+  width: 600px;
+  text-align: left;
+  margin: 25px;
+}
+.photoBlock-little-text{
+  margin: 25px;
+  text-align: left;
+  font-size: 20px;
+  font-family: calibri;
+  width: 600px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.photoBlock-blue-button{
+  cursor: pointer;
+  color: white;
+  background-color: #1b57b4;
+  font-size: 20px;
+  font-family: calibri;
+  padding: 15px 15px;
+  border-radius: 30px;
+  margin: 15px;
+}
+
+.photoBlock-white-button{
+  cursor: pointer;
+  border: #1b57b4 1px solid;
+  background-color: white;
+  color: #1b57b4;
+  font-size: 20px;
+  font-family: calibri;
+  padding: 15px 15px;
+  border-radius: 30px;
+  margin: 15px;
 }

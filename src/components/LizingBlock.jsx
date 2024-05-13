@@ -20,8 +20,8 @@ export function LizingBlock({NameText,dopText,buttonText,routePath,imgs}){
                     {dopText}
                 </div>
                 
-                <div className="lizing-button" onClick={scrollToTop}>
-                    <Link to={routePath}>{buttonText}</Link>
+                <div className="lizing-button">
+                    <Link to={routePath} onClick={scrollToTop}>{buttonText}</Link>
                 </div>
             </div>
             <div className="lizing-img">

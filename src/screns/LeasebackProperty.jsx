@@ -3,21 +3,21 @@ import CallForm from "../components/CallForm";
 import LizingTitle from "../components/LizingTitle";
 import MainInfoLizing from "../components/MainInfoLizing";
 
-import propMan from "../imgs/propman.png"
+import propWo from "../imgs/propwo.png"
 
 export function LeasebackProperty (){
     return(
         <div>
             <LizingTitle
-            LizingTitle="Лизинг коммерческой недвижимости"
-            littleTitle="Обновите свои основные средства без серьезной нагрузки на бюджет" 
-            lizingTitleInfo1="Увеличивайте чистую прибыль"
-            lizingTitleInfo2="Налоговая выгода"
-            lizingTitleInfo3="Индивидуальный график платежей" 
-            lizingTitlelittleInfo1="Лизинговый платеж и затраты по эксплуатации имущества относятся на себестоимость"
-            lizingTitlelittleInfo2="НДС, включенный в лизинговые платежи, принимается клиентом к зачету в полном объеме"
-            lizingTitlelittleInfo3="Возможность получения более гибкого графика платежей по сравнению с кредитными платежами"
-            imgs={propMan}
+            LizingTitle="Возвратный лизинг коммерческой недвижимости"
+            littleTitle="Простой способ привлечь денежные средства для бизнеса" 
+            lizingTitleInfo1="Увеличение оборотных средств"
+            lizingTitleInfo2="Снижение расходов по налогам"
+            lizingTitleInfo3="Менеджмент ресурсов" 
+            lizingTitlelittleInfo1="Получайте оборотные средства, не привлекая дополнительных источников финансирования"
+            lizingTitlelittleInfo2="Возвратный лизинг позволяет минимизировать расходы по налогообложению"
+            lizingTitlelittleInfo3="Вы сможете направить полученные оборотные средства на необходимые цели"
+            imgs={propWo}
             />
             <MainInfoLizing
             mainInfo1="Быстрое оформление"
