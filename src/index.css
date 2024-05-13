@@ -8,11 +8,9 @@ background-color: #1b57b4;
 width: 100%;
 }
 .block-workzone{
-  display: block;
-  width: 1200px;
-  min-width: none;
-  max-width: 3200px;
-  margin: 0px auto;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .inline-flex{
   display: flex;
@@ -76,15 +74,17 @@ width: 100%;
 }
 .lizing-workspace{
   display: block;
-  width: 1400px;
-  min-width: none;
-  max-width: 3200px;
+  width: 100%;
   margin: 0px auto;
+  padding-left: 100px;
 }
 .lizing-main{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
 }
 .lizing-block{
   width: 600px;
