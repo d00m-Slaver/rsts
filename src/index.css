@@ -1,13 +1,595 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+margin: 0px;
+padding: 0px;
+background-color: aliceblue;
+}
+.block{
+background-color: #1b57b4;
+width: 100%;
+}
+.block-workzone{
+  display: block;
+  width: 1200px;
+  min-width: none;
+  max-width: 3200px;
+  margin: 0px auto;
+}
+.inline-flex{
+  display: flex;
+  flex-direction: row;
+}
+.flex-block{
+  display: flex;
+  flex-direction: row;
+}
+.flex-block-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 30%;
+}
+.block-inline-text{
+  font-family: calibri;
+  margin: 10px;
+  color:rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+.block-inline-text:hover{
+  color:rgba(255, 255, 255, 1);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.menu{
+  background-color:aliceblue;
+  width: 100%;
+  box-shadow: 0px 15px 20px lightgray;
+  position: relative;
+}
+.block-workzone-menu{
+  display: block;
+  width: 1000px;
+  min-width: none;
+  max-width: 3200px;
+  margin: 0px auto;
+}
+.inline-flex-menu{
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.block-menu{
+  margin: 30px 15px;
+  font-family: calibri;
+  color:rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  font-size: 22px;
+}
+.block-menu:hover{
+  color:rgba(0, 0, 0, 1);
+}
+
+.textonce{
+  font-size: 30px;
+  font-family: calibri;
+  margin: 30px;
+  text-align: left;
+  color:rgba(0, 0, 0, 0.7);
+}
+.lizing-workspace{
+  display: block;
+  width: 1400px;
+  min-width: none;
+  max-width: 3200px;
+  margin: 0px auto;
+}
+.lizing-main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.lizing-block{
+  width: 600px;
+  height: 260px;
+  background-color: #eaecf0;
+  border-radius: 15px;
+  margin: 25px;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+.lizing-name-text{
+  font-weight: bold;
+  font-family: calibri;
+  margin: 15px;
+  text-align: left;
+}
+.lizing-text{
+  font-family: calibri;
+  margin: 15px;
+  text-align: left;
+}
+
+.lizing-button{
+  background-color: #1b57b4;
+  font-family: calibri;
+  padding: 10px;
+  width: 100px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.block-menu a{
+  color:rgba(0, 0, 0, 0.7);
+}
+
+.footer-block{
+  background-color: aliceblue;
+  width: 100%;
+}
+
+.footer-top{
+  background-color: #1b57b4;
+  width: 100%;
+}
+
+.big-logo-footer-top{
+  width: 25%;
+  margin: 100px !important;
+  text-align: center !important; 
+  font-family: calibri;
+  font-size: 20px !important;
+  color:white !important;
+}
+
+.big-text-footer-top{
+  font-family: calibri; 
+  font-size: 25px !important;
+  color:rgba(255, 255, 255, 1) !important;
+}
+.big-text-footer-top:hover{
+  font-family: calibri;
+  font-size: 25px !important;
+  color:rgba(255, 255, 255, 0.6) !important;
+}
+
+.footer-top .flex-row div{
+  margin: 5px;
+  text-align: left;
+  font-family: calibri;
+  cursor: pointer;
+  font-size: 15px;
+  color:rgba(255, 255, 255, 0.6);
+}
+.footer-top .flex-column div:hover{
+
+  color:rgba(255, 255, 255, 1);
+}
+
+.footer-bottom .flex-row div{
+  margin: 5px 30px;
+  text-align: left;
+  font-family: calibri;
+  font-size: 15px;
+  color:gray;
+  cursor: pointer;
+}
+.footer-bottom .flex-column div{
+  color:gray;
+ 
+}
+.footer-bottom .flex-column div:hover{
+
+  color:#1b57b4;
+}
+.row-align-right{
+  flex-direction: row-reverse;
+}
+.flex-bottom-special-size{
+  width: 30%;
+  margin: 15px 20% 15px 15px !important;
+}
+.footer-top-button{
+font-size: 20px !important;
+color: white !important;
+margin: 15px !important;
+display: block;
+height: 25px;
+padding: 25px;
+width: 250px;
+text-align: center !important;
+border: #eaecf0 1px solid;
+border-radius: 40px;
+margin-left: 150px !important;
+}
+
+.form-workspace{
+  background-color: aliceblue;
+  width: 100%;
+}
+.forms{
+  display: block;
+  margin: 20px auto;
+  width: 1000px;
+  background-color: white;
+  border-radius: 20px;
+}
+.text-forms-big{
+  font-family: calibri;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px;
+  text-align: center;
+  width: 500px;
+}
+.text-field{
+  width: 500px;
+  margin: 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+
+
+input[type=text]:focus {
+  background-color: lightblue;
+}
+
+.checkbox-forms{
+  width: 30px;
+  height: 30px;
+  background-color: #1b57b4;
+  margin: 45px 0px 45px 125px;
+}
+
+.text-forms-little{
+  font-family: calibri;
+  font-size: 15px;
+  margin: 15px;
+  text-align: left;
+}
+.button-forms{
+  
+  font-family: calibri;
+  font-size: 30px;
+  display: block;
+  margin: 15px auto;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  background-color: #1b57b4;
+  color: white;
+  border-radius: 30px;
+}
+.border-style{
+  border-right:1px solid rgba(0, 0, 0, 0.3) ;
+}
+.right-chapter {
+
+  display: block;
+  margin: 150px auto;
+}
+.right-chapter .TitleText{
+  text-align: center;
+  font-family: calibri;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.right-chapter .LowerText{
+  text-align: center;
+  font-family: calibri;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.right-chapter .Phone{
+  text-align: center;
+  font-family: calibri;
+  font-size: 15px;
+  margin: 5px;
+  color: #1b57b4;
+}
+.popular-workspace{
+  display: block;
+  margin: 30px auto;
+  width: 1400px;
+  background-color: white;
+  border-radius: 15px;
+}
+.popularTitle{
+  text-align: left;
+  font-size: 30px;
+  font-family: calibri;
+  margin: 20px;
+  font-weight: bold;
+}
+.car-block{
+  border-radius: 20px;
+  margin: 25px;
+}
+.car-img img{
+  border-radius: 15px;
+  margin: 3px;
+}
+.car-name{
+  text-align: left;
+  font-size: 20px;
+  font-family: calibri;
+  font-weight: bold;
+  margin: 0px 20px;
+  text-align: left;
+  cursor:pointer;
+}
+.car-name:hover{
+color:#1b57b4;
+}
+.car-info{
+  text-align: left;
+  font-size: 17px;
+  font-family: calibri;
+  margin: 5px 20px;
+  color:rgba(0, 0, 0, 0.4);
+}
+.car-info span{
+  font-weight: bold;
+  color:rgba(0, 0, 0, 0.8);
+}
+
+.car-button{
+  text-align: left;
+}
+.car-button{
+  background-color: white;
+  border: 1px solid #1b57b4;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: calibri;
+  font-weight: bold;
+  color: #1b57b4;
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  cursor:pointer;
+}
+
+.car-button:hover{
+  background-color: #1b57b4;
+  color: white;
+}
+
+.lizingTitle-workspace{
+  background-color: aliceblue;
+  width: 100%;
+}
+
+.lizingTitle-title{
+  font-family: calibri;
+  font-size:50px;
+  font-weight: bold;
+  width: 600px;
+  text-align: left;
+  margin: 25px;
+}
+
+.lizingTitle-workspace-main{
+ width: 1200px;
+ background-color: aliceblue;
+ display: block;
+ margin: 50px auto;
+}
+
+.lizingTitle-littleTitle{
+  margin: 25px;
+  text-align: left;
+  font-size: 20px;
+  font-family: calibri;
+  width: 600px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.lizingTitle-button-blue{
+cursor: pointer;
+color: white;
+background-color: #1b57b4;
+font-size: 20px;
+font-family: calibri;
+padding: 15px 15px;
+border-radius: 30px;
+margin: 15px;
+}
+.lizingTitle-button-white{
+cursor: pointer;
+border: #1b57b4 1px solid;
+background-color: white;
+color: #1b57b4;
+font-size: 20px;
+font-family: calibri;
+padding: 15px 15px;
+border-radius: 30px;
+margin: 15px;
+}
+.lizingTitle-info{
+  text-align: left;
+  width: 250px;
+  margin: 15px 50px;
+  font-size: 20px;
+  font-family: calibri;
+  font-weight: bold;
+
+}
+.lizingTitle-info div{
+  font-size: 20px;
+  font-family: calibri;
+  font-weight: 100;
+}
+
+.MainInfoLizing{
+  width: 100%;
+  background-color: white;
+}
+.MainInfoLizing-workspace{
+  display: block;
+  margin: 30px auto;
+  width: 1200px;
+  padding: 50px;
+}
+.MainInfoLizing-title{
+  text-align: left;
+  font-family: calibri;
+  font-size: 30px;
+  font-weight: bold;
+}
+.MainInfoLizing-info{
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.MainInfoLizing-info-block{
+  text-align: left;
+  width: 500px;
+  margin: 25px;
+  font-family: calibri;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.MainInfoLizing-info-block div{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 17px;
+  font-weight: 100;
+}
+.MainInfoLizing-button{
+  cursor: pointer;
+  padding: 15px;
+  background-color: #1b57b4;
+  color:white;
+  border-radius: 30px;
+  width: 200px;
+  margin: 0px 0px !important;
+  font-family: calibri;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.littleSelector{
+  margin: 50px 0px;
+  width: 100%;
+  background-color: white;
+}
+
+.littleSelector-workspace{
+  width: 1200px;
+  padding: 30px;
+  display: block;
+  margin: 30px auto;
+}
+
+.littleSelector-bigText{
+  margin: 5px;
+  font-size: 35px;
+  font-family: calibri;
+  width: 700px;
+  font-weight: 600;
+  color:black;
+  text-align: left;
+}
+.littleSelector-workspace .flex-row{
+  flex-wrap: wrap;
+}
+
+.littleSelector-workspace .flex-row div{
+  cursor: pointer;
+  margin: 8px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: whitesmoke;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 15px;
+  font-family: calibri;
+  font-weight: 300;
+}
+
+.littleSelector-workspace .flex-row div:hover{
+  background-color: white;
+}
+
+.bigSelector{
+  width: 100%;
+  background-color: white;
+}
+.bidSelector-workspace{
+  display: block;
+  margin: 30px auto;
+  width: 1220px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.bidSelector-workspace .flex-row{
+  flex-wrap: wrap;
+}
+.carItem{
+  width: 260px;
+  margin: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.carItem-img{
+  margin: 20px 20px;
+  width: 220px;
+  height: 220px;
+  border: 1px solid black;
+}
+.carItem-text{
+  display: block;
+  margin: 0px auto;
+  width: 200px;
+  font-size: 20px;
+  font-family: calibri;
+  font-weight: bold;
+  text-align: center;
+}
+
+.carItem-button{
+  display: block;
+  margin: 10px auto;
+  background-color: #1b57b4;
+  border-radius: 15px;
+  width: 150px;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: calibri;
+}
+
+.lizing-img img{
+  width: 300px;
+  display: block;
+  margin: 0px;
+}
+.lizing-block .flex-row .flex-column{
+  width: 300px;
+}
+
+.base-flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.base-flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.base-lizing-img img{
+ width: 400px;
 }
