@@ -545,10 +545,13 @@ margin: 15px;
 }
 .carItem-img{
   margin: 20px 20px;
-  width: 220px;
-  height: 220px;
-  border: 1px solid black;
+  min-height: 100px;
+
 }
+.carItem-img img{
+  width: 200px;
+}
+
 .carItem-text{
   display: block;
   margin: 0px auto;

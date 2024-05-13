@@ -5,7 +5,7 @@ export function CarItem({text,img,count}){
         <div className="carItem">
             <div className="flex-column">
                 <div className="carItem-img">
-                    <img/>
+                    <img src={img}/>
                 </div>
                 <div className="carItem-text">{text}</div>
                 <div className="carItem-button">Предложений {count}</div>
