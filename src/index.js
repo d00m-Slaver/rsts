@@ -1,16 +1,14 @@
-import {Main} from './screns/main'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import {BrowserRouter} from 'react-router-dom';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <BrowserRouter>
+    <App />
+    </BrowserRouter>
+  </React.StrictMode>
+);
 
-
-import './App.css';
-
-
-
-function App() {
-  return (
-    <div className="App">
-      <Main/>
-    </div>
-  );
-}
-
-export default App;

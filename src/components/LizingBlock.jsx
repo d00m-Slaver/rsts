@@ -1,4 +1,12 @@
 import {Link} from 'react-router-dom';
+
+const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth" // делает прокрутку плавной
+    });
+  };
+
 export function LizingBlock({NameText,dopText,buttonText,routePath,imgs}){
     return(
     
@@ -12,7 +20,7 @@ export function LizingBlock({NameText,dopText,buttonText,routePath,imgs}){
                     {dopText}
                 </div>
                 
-                <div className="lizing-button">
+                <div className="lizing-button" onClick={scrollToTop}>
                     <Link to={routePath}>{buttonText}</Link>
                 </div>
             </div>

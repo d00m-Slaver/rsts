@@ -2,7 +2,7 @@ import React from "react";
 export function LizingTitle({LizingTitle,littleTitle,lizingTitleInfo1,lizingTitleInfo2,lizingTitleInfo3,lizingTitlelittleInfo1,lizingTitlelittleInfo2,lizingTitlelittleInfo3,imgs}){
 
     return(
-        <div>
+        <div >
         <div className="lizingTitle-workspace">
             <div className="flex-column lizingTitle-workspace-main">
                 <div className="base-flex-row">

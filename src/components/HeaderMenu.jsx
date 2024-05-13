@@ -1,11 +1,16 @@
 import { Link } from "react-router-dom"
 
+import mtlogo from "../imgs/mtb.png"
+
 export function HeaderMenu(){
     return(
     
     <div className="menu">
        <div className="block-workzone-menu">
             <div className="inline-flex-menu">
+            <div className="block-menu-img">
+                    <img src={mtlogo}/>
+                    </div>
                 <div className="block-menu">
                     <a>Счета</a>
                     </div>

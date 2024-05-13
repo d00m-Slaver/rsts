@@ -1,7 +1,10 @@
 body {
-margin: 0px;
-padding: 0px;
+margin: 0px !important;
+padding: 0px !important;
 background-color: aliceblue;
+}
+.App{
+  width: 100%;
 }
 .block{
 background-color: #1b57b4;
@@ -36,7 +39,7 @@ width: 100%;
 }
 
 .menu{
-  background-color:aliceblue;
+  background-color:White;
   width: 100%;
   box-shadow: 0px 15px 20px lightgray;
   position: relative;
@@ -66,9 +69,10 @@ width: 100%;
 }
 
 .textonce{
-  font-size: 30px;
+  font-size: 40px;
   font-family: calibri;
-  margin: 30px;
+  font-weight: bold;
+  margin: 50px;
   text-align: left;
   color:rgba(0, 0, 0, 0.7);
 }
@@ -76,7 +80,6 @@ width: 100%;
   display: block;
   width: 100%;
   margin: 0px auto;
-  padding-left: 100px;
 }
 .lizing-main{
   display: flex;
@@ -87,11 +90,11 @@ width: 100%;
   width: 100%;
 }
 .lizing-block{
-  width: 600px;
-  height: 260px;
-  background-color: #eaecf0;
+  width: 560px;
+  height: 270px;
+  background-color: white;
   border-radius: 15px;
-  margin: 25px;
+  margin: 20px;
 }
 .flex-row{
   display: flex;
@@ -102,6 +105,7 @@ width: 100%;
   flex-direction: column;
 }
 .lizing-name-text{
+  font-size: 20px;
   font-weight: bold;
   font-family: calibri;
   margin: 15px;
@@ -145,9 +149,11 @@ a{
   width: 25%;
   margin: 100px !important;
   text-align: center !important; 
-  font-family: calibri;
-  font-size: 20px !important;
   color:white !important;
+}
+
+.big-logo-footer-top img{
+  width: 250px;
 }
 
 .big-text-footer-top{
@@ -594,5 +600,12 @@ margin: 15px;
 
 
 .base-lizing-img img{
- width: 400px;
+ width: 450px;
+}
+
+.block-menu-img {
+  padding: 15px;
+}
+.block-menu-img img{
+  width: 200px;
 }

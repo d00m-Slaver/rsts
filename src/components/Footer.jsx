@@ -1,9 +1,10 @@
+import mtblogo from "../imgs/logo_white.png";
 export function Footer(){
     return(
     <div className="footer-block">
         <div className="footer-top">
             <div className="flex-row">
-                <div className="big-logo-footer-top">30 лет с вами</div>
+                <div className="big-logo-footer-top"><img src={mtblogo}/></div>
                 <div className="flex-column">
                     <div className="flex-row">
                         <div className="flex-column">

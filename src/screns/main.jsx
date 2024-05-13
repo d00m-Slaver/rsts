@@ -18,10 +18,14 @@ import {UsedСars} from './UsedCars';
 import {Trucks} from './Trucks';
 import {SpesialCars} from './spesialCars';
 import {CarRefound} from './CarRefound';
+import {Equipment} from './Equipment';
+import {LeasebackEquipment} from './LeasebackEquipment';
+import {CommercialProperty} from './CommercialProperty';
+import {LeasebackProperty} from './LeasebackProperty';
 
 export function Main(){
     return(
-        <div>
+        <>
             <Header/>
             <HeaderMenu/>
                 <Routes>
@@ -32,9 +36,13 @@ export function Main(){
                     <Route path="/Trucks" element={<Trucks/>}></Route>
                     <Route path="/SpesialCars" element={<SpesialCars/>}></Route>
                     <Route path="/CarRefound" element={<CarRefound/>}></Route>
+                    <Route path="/Equipment" element={<Equipment/>}></Route>
+                    <Route path="/LeasebackEquipment" element={<LeasebackEquipment/>}></Route>
+                    <Route path="/CommercialProperty" element={<CommercialProperty/>}></Route>
+                    <Route path="/LeasebackProperty" element={<LeasebackProperty/>}></Route>
                 </Routes>
             <Footer/>
-        </div>
+        </>
     )
 }
 
